@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eef2f7;
+    margin: 0;
+    padding: 0 20px 20px 20px;
+    color: #222;
+}
+
+body > p:first-of-type {
+    background: #0d6efd;
+    color: #fff;
+    margin: 0 -20px 20px -20px;
+    padding: 14px 20px;
+    max-width: none;
+}
+
+body > p:first-of-type a {
+    color: #fff;
+    font-weight: bold;
+}
+
+hr {
+    display: none;
+}
+
+h2 {
+    color: #0b3d91;
+    border-bottom: 2px solid #0d6efd;
+    padding-bottom: 6px;
+}
+
+h3 {
+    color: #0b3d91;
+}
+
+p, h2, h3, form, table {
+    max-width: 1100px;
+}
+
+a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    background-color: #0d6efd;
+    background-image: linear-gradient(rgba(13, 110, 253, 0.55), rgba(11, 61, 145, 0.7)), url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.banner h1 {
+    margin: 0 0 10px 0;
+    font-size: 34px;
+}
+
+.banner p {
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    background: #fff;
+    border-left: 5px solid #0d6efd;
+    border-radius: 6px;
+    padding: 15px 20px;
+    margin: 5px 10px 5px 0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+table {
+    border-collapse: collapse;
+    background: #fff;
+    width: 100%;
+    margin: 10px 0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+th {
+    background: #0d6efd;
+    color: #fff;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background: #f2f6fc;
+}
+
+tr:hover {
+    background: #e3edff;
+}
+
+form {
+    background: #fff;
+    padding: 15px;
+    border-radius: 6px;
+    margin: 10px 0;
+}
+
+table form {
+    background: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+}
+
+input, select, textarea {
+    padding: 6px;
+    margin: 3px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+button {
+    padding: 7px 14px;
+    background: #0d6efd;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0b5ed7;
+}
